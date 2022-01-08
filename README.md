@@ -42,7 +42,7 @@
 
 ## Properties
 ***
-###logger
+######logger
 - logger.clean.old.log: [true/false]  
   > Delete the old log file on app launch.
 - logger.level.file: [DEBUG/ INFO/ WARN/ FATAL/ ERROR/ SILENT]
@@ -50,7 +50,7 @@
 - logger.path: \<file path>
   > Config log file path.
 
-###aerospike
+######aerospike
 - aerospike.default.namespace:
   > Config aerospike namespace.
 
@@ -86,7 +86,7 @@
 - aerospike.console.key.name.alias:
   > Replace the world "key" with the alias in the console.
   
-###pre run script
+######pre run script
 - app.manager.pre.cmd:
   > Config path to a pre run script.  
   > Note: Can be useful for opening a VPN connection or a tunneling.
